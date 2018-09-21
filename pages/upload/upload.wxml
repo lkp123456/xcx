@@ -1,0 +1,3 @@
+<view class="container">
+<button type="primary"  class="image-plus image-plus-nb" bindtap="chooseImage">ssss</button>     
+</view>

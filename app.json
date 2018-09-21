@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/viewpic/viewpic",
+    "pages/myinfo/myinfo",
+    "pages/upload/upload"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "趣图",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/viewpic/viewpic",
+        "text": "看图"
+      },
+      {
+        "pagePath": "pages/myinfo/myinfo",
+        "text": "我的"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}
